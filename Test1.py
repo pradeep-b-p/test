@@ -3,7 +3,9 @@ print("Modified changed")
 
 # Commiting 1st time
 # Commiting 2nd time
-Ip = input("Are You thirsty :")
+IP_Drinks = input("Are You thirsty :")
 
-if Ip == "thirsty":
+if IP_Drinks == "thirsty":
     print("Drink Water")
+else:
+    print("Drink Juice")
